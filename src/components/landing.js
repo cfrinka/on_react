@@ -24,7 +24,7 @@ const Landing = () => {
           <img src="../../assets/images/logo_landing.svg"></img>
         </div>
         <div className="logo-name">
-          <p>ON-Therapy</p>
+          ON-Therapy
         </div>
         <div className="bottom-stuff">
           <div className="boy">
