@@ -4,48 +4,47 @@ import '../App.css'
 
 const Landing = () => {
   return (
-    <div className="main-container">
-      <div className="left">
-        <div className="think-bubble">
-          <img src="../../assets/images/thinkbubble.svg"></img>
-          <p>Meu diário emocional</p>
-        </div>
-        <div className="text-left-align">
-          <p>HERE IS SOME SAMPLE TEXT TO BE CHANGED LATER</p>
-        </div>
-        <div className="text-right-align">
-          <p>HERE IS SOME MORE TEXT TO HELP WITH THE css</p>
-        </div>
+    <div class="main-container">
+    <div class="left">
+      <div class="left-head">
+        <img src="../../assets/images/thinkbubble.svg"></img>
+        <p>Meu diário emocional</p>
       </div>
+      <div class="text-left-align">
+        <p>Uma maneira fácil, rápida e divertida de compartilhar suas emoções diárias com seu terapeuta</p>
+      </div>
+      <div class="text-right-align">
+        <p>Ajuda para você, profissional, acompanhar seus pacientes</p>
+      </div>
+    </div>
 
-
-      <div className="right">
-        <div className="logo-image">
-          <img src="../../assets/images/logo_landing.svg"></img>
+    <div class="right">
+      <div class="logo-image">
+        <img src="../../assets/images/logo_landing.svg"></img>
+      </div>
+      <div class="logo-name">
+        ON-Therapy
+      </div>
+      <div class="bottom-stuff">
+        <div class="boy">
+          <img src="../../assets/images/man_landing.svg"></img>
         </div>
-        <div className="logo-name">
-          ON-Therapy
+        <div class="container-buttons">
+          <button class="buttons">
+            ENTRAR
+          </button>
+          <button class="buttons">
+            CADASTRAR
+          </button>
         </div>
-        <div className="bottom-stuff">
-          <div className="boy">
-            <img src="../../assets/images/man_landing.svg"></img>
-          </div>
-          <div className="container-buttons">
-            <div className="buttons">
-              ENTRAR
-            </div>
-            <div className="buttons">
-              CADASTRAR
-            </div>
-          </div>
-          <div className="girl">
-            <img src="../../assets/images/girl_landing.svg"></img>
-          </div>
+        <div class="girl">
+          <img src="../../assets/images/girl_landing.svg"></img>
         </div>
-
       </div>
 
     </div>
+
+  </div>
   )
 
 }
